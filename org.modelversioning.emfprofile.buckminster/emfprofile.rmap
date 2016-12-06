@@ -4,7 +4,7 @@
 	
 	<rm:property key="resolveFrom" value="release"/>
 	
-	<rm:locator pattern="^org\.palladiosimulator\.commons.*" searchPathRef="EMF-Profiles" failOnError="true" />
+	<rm:locator pattern="^org\.modelversioning\.emfprofile.*" searchPathRef="EMF-Profiles" failOnError="true" />
 
 	<rm:searchPath name="EMF-Profiles">
     <rm:provider componentTypes="eclipse.feature,osgi.bundle,buckminster" readerType="git" resolutionFilter="" source="true">
