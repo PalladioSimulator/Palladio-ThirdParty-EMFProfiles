@@ -24,7 +24,6 @@
 		<module>org.modelversioning.emfprofile.project.ui</module>
 		<module>org.modelversioning.emfprofile.registry</module>
 		<module>org.modelversioning.emfprofile.registry.ui</module>
-		<module>org.modelversioning.emfprofile.updatesite</module>
 	</modules>
 	
 </project>
