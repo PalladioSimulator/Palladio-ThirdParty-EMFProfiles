@@ -1,4 +1,3 @@
-palladioBuild {
-	webserverDir = 'emf-profiles'
-	updateSiteLocation = 'releng/org.palladiosimulator.emf-profiles.updatesite/target/repository'
+PalladioPipeline {
+    deployUpdatesite 'releng/org.palladiosimulator.emf-profiles.updatesite/target/repository'
 }
