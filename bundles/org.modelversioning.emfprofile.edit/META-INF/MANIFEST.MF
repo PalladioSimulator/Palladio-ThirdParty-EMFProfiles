@@ -7,7 +7,7 @@ Bundle-ClassPath: .
 Bundle-Activator: org.modelversioning.emfprofile.provider.EMFProfileEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.modelversioning.emfprofile.provider,
  org.modelversioning.emfprofileapplication.provider
 Require-Bundle: org.eclipse.core.runtime,
