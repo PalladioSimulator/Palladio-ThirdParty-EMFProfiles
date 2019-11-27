@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.modelversioning.emfprofile.ui.feature"
+      label="EMFProfiles UI Feature"
+      version="4.2.0.qualifier"
+      license-feature="org.palladiosimulator.license"
+      license-feature-version="1.0.0">
+
+   <includes
+         id="org.modelversioning.emfprofile.core.feature"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.application.decorator.gmf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.application.decorator.reflective"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.application.registry.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.project.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.registry.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.diagram"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.modelversioning.emfprofile.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

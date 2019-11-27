@@ -3,106 +3,20 @@
       id="org.modelversioning.emfprofile.feature"
       label="EMF Profiles"
       version="1.0.0.qualifier"
-      provider-name="modelversioning.org">
+      provider-name="modelversioning.org"
+      license-feature="org.palladiosimulator.license"
+      license-feature-version="1.0.0">
 
    <description url="https://code.google.com/a/eclipselabs.org/p/emf-profiles/">
       EMF Profiles is an adaptation of the well-known UML profile concept to EMF-based DSMLs.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
-   </copyright>
+   <includes
+         id="org.modelversioning.emfprofile.core.feature"
+         version="0.0.0"/>
 
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
-   </license>
-
-   <url>
-      <update label="EMF Profiles Update Site" url="http://www.modelversioning.org/emf-profiles-updatesite"/>
-   </url>
-
-   <plugin
-         id="org.modelversioning.emfprofile"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.application.decorator.gmf"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.application.decorator.reflective"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.application.registry"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.application.registry.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.diagram"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.project"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.project.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.registry"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.modelversioning.emfprofile.registry.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+   <includes
+         id="org.modelversioning.emfprofile.ui.feature"
+         version="0.0.0"/>
 
 </feature>
