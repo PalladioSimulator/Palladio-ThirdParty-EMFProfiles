@@ -13,6 +13,8 @@
 	
 	<modules>
 		<module>org.modelversioning.emfprofile.feature</module>
+		<module>org.modelversioning.emfprofile.core.feature</module>
+		<module>org.modelversioning.emfprofile.ui.feature</module>
 	</modules>
 	
 </project>
