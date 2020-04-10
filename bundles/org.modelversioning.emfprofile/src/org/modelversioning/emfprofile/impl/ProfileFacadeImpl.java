@@ -67,6 +67,7 @@ public class ProfileFacadeImpl implements IProfileFacade {
 	private static final String STEREOTYPE_NOT_APPLICABLE = "Stereotype is not applicable to the object.";
 	private static final String STEREOTYPE_APP_RESOURCE_ERROR = "Specified resource for the "
 			+ "stereotype application is not set, null, or unloaded.";
+	private static final long SAVE_JOB_TIMEOUT_MS = 60 * 1000;
 	/**
 	 * Currently loaded profiles.
 	 */
@@ -130,10 +131,10 @@ public class ProfileFacadeImpl implements IProfileFacade {
 		};
 		job.schedule();
 		try {
-            job.join();
-        } catch (InterruptedException e) {
-            throw new IOException("Interrupted wail waiting for save to be finished", e);
-        }
+			job.join(SAVE_JOB_TIMEOUT_MS, new NullProgressMonitor());
+		} catch (InterruptedException e) {
+			throw new IOException("Interrupted while waiting for save to be finished", e);
+		}
 	}
 
 	/**
