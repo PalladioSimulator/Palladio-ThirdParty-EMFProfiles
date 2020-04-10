@@ -109,11 +109,11 @@ public class ProfileFacadeImpl implements IProfileFacade {
 		}
 	}
 
-	private void doProfileApplicationResourceSave() {
+	private void doProfileApplicationResourceSave() throws IOException {
 		final Map<Object, Object> saveOptions = new HashMap<Object, Object>();
 		saveOptions.put(Resource.OPTION_SAVE_ONLY_IF_CHANGED,
 				Resource.OPTION_SAVE_ONLY_IF_CHANGED_MEMORY_BUFFER);
-		new WorkspaceJob("Saving Profile Application") {
+		WorkspaceJob job = new WorkspaceJob("Saving Profile Application") {
 			@Override
 			public IStatus runInWorkspace(IProgressMonitor monitor)
 					throws CoreException {
@@ -127,7 +127,13 @@ public class ProfileFacadeImpl implements IProfileFacade {
 				}
 				return new Status(IStatus.OK, EMFProfilePlugin.ID, "OK");
 			}
-		}.schedule();
+		};
+		job.schedule();
+		try {
+            job.join();
+        } catch (InterruptedException e) {
+            throw new IOException("Interrupted wail waiting for save to be finished", e);
+        }
 	}
 
 	/**
