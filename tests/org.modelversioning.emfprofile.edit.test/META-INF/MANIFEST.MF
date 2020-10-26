@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EMF Profiles Edit Tests
+Bundle-SymbolicName: org.modelversioning.emfprofile.edit.test
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.modelversioning.emfprofile.edit;bundle-version="1.0.0"
+Automatic-Module-Name: org.modelversioning.emfprofile.edit.test
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: junit.runner;version="4.13.0",
+ org.junit.jupiter.api;version="5.6.0"
