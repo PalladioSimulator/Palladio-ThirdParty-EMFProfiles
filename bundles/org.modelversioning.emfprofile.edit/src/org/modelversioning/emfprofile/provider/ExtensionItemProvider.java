@@ -9,10 +9,12 @@ package org.modelversioning.emfprofile.provider;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Optional;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.util.ResourceLocator;
+import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
 import org.eclipse.emf.edit.provider.IItemLabelProvider;
@@ -25,6 +27,7 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 import org.modelversioning.emfprofile.EMFProfilePackage;
 import org.modelversioning.emfprofile.Extension;
+import org.modelversioning.emfprofile.Stereotype;
 
 /**
  * This is the item provider adapter for a {@link org.modelversioning.emfprofile.Extension} object.
@@ -240,7 +243,10 @@ public class ExtensionItemProvider extends ItemProviderAdapter implements
 	@Override
 	public String getText(Object object) {
 		Extension extension = (Extension)object;
-		return extension.getSource().getName() + " " + getString("_UI_Extension_sign") + " " + extension.getTarget().getName();
+		var sourceName = Optional.ofNullable(extension.getSource()).map(Stereotype::getName).orElse("");
+		var targetName = Optional.ofNullable(extension.getTarget()).map(EClass::getName).orElse("");
+		var connector = getString("_UI_Extension_sign");
+		return String.format("%s %s %s", sourceName, connector, targetName);
 	}
 
 	/**
