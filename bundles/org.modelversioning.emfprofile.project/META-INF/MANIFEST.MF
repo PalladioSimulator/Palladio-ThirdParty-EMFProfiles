@@ -2,10 +2,10 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: EMF Profile Project Nature and Builder
 Bundle-SymbolicName: org.modelversioning.emfprofile.project;singleton:=true
-Bundle-Version: 5.0.0.qualifier
+Bundle-Version: 5.1.0.qualifier
 Bundle-Vendor: modelversioning.org
 Require-Bundle: org.eclipse.core.resources,
  org.eclipse.core.runtime,
- org.modelversioning.emfprofile;bundle-version="5.0.0"
+ org.modelversioning.emfprofile;bundle-version="5.1.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.modelversioning.emfprofile.project
