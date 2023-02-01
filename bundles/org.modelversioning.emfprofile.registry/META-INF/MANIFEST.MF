@@ -9,6 +9,6 @@ Require-Bundle: org.eclipse.core.runtime,
  org.modelversioning.emfprofile;bundle-version="5.1.0";visibility:=reexport,
  org.eclipse.core.resources;bundle-version="3.7.101",
  org.modelversioning.emfprofile.project;bundle-version="5.1.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Export-Package: org.modelversioning.emfprofile.registry
