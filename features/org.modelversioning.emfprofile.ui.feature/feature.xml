@@ -2,7 +2,7 @@
 <feature
       id="org.modelversioning.emfprofile.ui.feature"
       label="EMFProfiles UI Feature"
-      version="5.1.0.qualifier"
+      version="5.2.0.qualifier"
       license-feature="org.palladiosimulator.license"
       license-feature-version="1.0.0">
 
