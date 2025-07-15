@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.palladiosimulator</groupId>
 		<artifactId>eclipse-parent-updatesite</artifactId>
-		<version>0.9.0</version>
+		<version>0.9.1</version>
 	</parent>
 	<groupId>org.palladiosimulator.emf-profiles</groupId>
 	<artifactId>parent</artifactId>	
