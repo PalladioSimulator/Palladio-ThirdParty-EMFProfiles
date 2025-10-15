@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: EMF Profile Decorator for Sample Reflective Ecore Editor
 Bundle-SymbolicName: org.modelversioning.emfprofile.application.decorator.reflective;singleton:=true
-Bundle-Version: 5.2.1.qualifier
+Bundle-Version: 5.2.2
 Bundle-Vendor: modelversioning.org
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Require-Bundle: org.modelversioning.emfprofile.application.registry.ui;bundle-version="5.2.1",
+Require-Bundle: org.modelversioning.emfprofile.application.registry.ui;bundle-version="5.2.2",
  org.eclipse.core.runtime;bundle-version="3.8.0"
