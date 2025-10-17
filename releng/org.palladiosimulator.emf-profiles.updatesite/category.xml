@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.modelversioning.emfprofile.feature_5.2.2.jar" id="org.modelversioning.emfprofile.feature" version="5.2.2">
+   <feature url="features/org.modelversioning.emfprofile.feature_6.0.0.qualifier.jar" id="org.modelversioning.emfprofile.feature" version="6.0.0.qualifier">
       <category name="org.palladiosimulator.support.category"/>
    </feature>
-   <feature url="features/org.modelversioning.emfprofile.feature.source_5.2.2.jar" id="org.modelversioning.emfprofile.feature.source" version="5.2.2">
+   <feature url="features/org.modelversioning.emfprofile.feature.source_6.0.0.qualifier.jar" id="org.modelversioning.emfprofile.feature.source" version="6.0.0.qualifier">
       <category name="org.palladiosimulator.support.source.category"/>
    </feature>
    <feature id="org.modelversioning.emfprofile.core.feature">
