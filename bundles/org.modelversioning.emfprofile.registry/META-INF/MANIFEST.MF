@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: EMF Profile Registry
 Bundle-SymbolicName: org.modelversioning.emfprofile.registry;singleton:=true
-Bundle-Version: 5.2.2
+Bundle-Version: 6.0.0.qualifier
 Bundle-Activator: org.modelversioning.emfprofile.registry.EMFProfileRegistryPlugin
 Bundle-Vendor: modelversioning.org
 Require-Bundle: org.eclipse.core.runtime,
