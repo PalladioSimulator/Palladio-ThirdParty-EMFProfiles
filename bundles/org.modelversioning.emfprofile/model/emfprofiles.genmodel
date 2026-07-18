@@ -5,7 +5,7 @@
     modelDirectory="/org.modelversioning.emfprofile/src" editDirectory="/org.modelversioning.emfprofile.edit/src"
     editorDirectory="/org.modelversioning.emfprofile.editor/src" modelPluginID="org.modelversioning.emfprofile"
     dynamicTemplates="true" modelName="EMFProfile" modelPluginClass="" testsDirectory="/org.modelversioning.emfprofile.tests/src"
-    importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0" copyrightFields="false"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="17.0" copyrightFields="false"
     editPluginID="org.modelversioning.emfprofile.edit" editorPluginID="org.modelversioning.emfprofile.editor"
     testsPluginID="org.modelversioning.emfprofile.tests" language="" usedGenPackages="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore">
   <foreignModel>emfprofiles.ecore</foreignModel>
