@@ -10,5 +10,5 @@ Require-Bundle: org.eclipse.ui,
  org.modelversioning.emfprofile.registry;bundle-version="5.2.2",
  org.modelversioning.emfprofile.edit;bundle-version="5.2.2",
  org.eclipse.emf.edit.ui;bundle-version="2.7.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Bundle-ActivationPolicy: lazy
